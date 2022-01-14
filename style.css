@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Poppins:wght@500&family=Raleway:wght@500;600;700&family=Roboto:wght@700&family=The+Nautigal&display=swap');
+/* -------------------
+CSS for all
+--------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+/*-------------------------------
+ Css for top section
+ -------------------------------- */
+ header{
+     max-width: 1440;
+     height: 94px;
+     background-color: #562EFF;
+ }
+ #container{
+     width: 870px;
+     align-items: center;
+     margin: 0 auto;
+     padding-top: 20px;
+     background-color:#562EFF;
+ }
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.left-navigation, .right-navigation{
+    display: flex;
+    align-items: center;
+}
+.idea h3{
+    color: white;
+    margin-left: 10px;
+}
+.right-navigation{
+    list-style: none;
+}
+.right-navigation a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.logo,.profile{
+    height: 40px;
+}
+.logo img,profile img{
+    height: 100%;
+}
+
+.navigation .logo img{
+    
+}
